@@ -3,16 +3,16 @@ import React from 'react'
 export default function Home() {
   return (
     
-    <><div className='bg-[url("https://as1.ftcdn.net/v2/jpg/00/95/29/68/1000_F_95296888_VeBf4npRMNJkIngif20ckHsaKXLTaE5w.jpg")] h-96 w-full bg-cover bg-center p-24'>
+    <><div className='bg-[url("https://as1.ftcdn.net/v2/jpg/00/95/29/68/1000_F_95296888_VeBf4npRMNJkIngif20ckHsaKXLTaE5w.jpg")] h-116 w-full bg-cover bg-center p-24'>
 
-      <h1 className='text-yellow-300 text-6xl font-bold text-left '>We are builders</h1>
+      <h1 className='text-yellow-300 text-6xl font-bold text-left pl-5 '>We are builders</h1>
       <h2 className='text-black text-6xl font-light text-left mt-5'>We will build your dreams</h2>
       <div class='p-5 flex gap-10'>
         <div className='row '>
 
-          <button class='bg-yellow-300 px-10 py-5 text-xl uppercase tracking-widest text-white font-bold'>projects</button>
+          <button class='bg-yellow-300 px-10 py-5 text-xl uppercase tracking-widest text-white font-bold '>projects</button>
           </div>
-          <button class='border-solid  border-white border-4 px-10 py-4 text-xl text-white uppercase tracking-widest'>About Us</button>
+          <button class='border-solid bg-white  border-white border-4 px-10 py-1 text-l text-yellow-300 uppercase font-bold tracking-widest'>About Us</button>
         </div>
       </div>
     
@@ -21,11 +21,11 @@ export default function Home() {
         <p class="mb-10 text-yellow-300 text-4xl font-bold text-center pt-20 pl-5">Welcome to </p>
         <p class="mb-10 text-black-300 text-4xl font-bold text-center pl-5">EVLO CONSTRUCTION</p>
         <hr class="w-48 h-1 mx-auto my-4 bg-yellow-300 border-0 rounded md:my-10 dark:bg-gray-700"></hr>
-        <p class="mb-10 text-black-300 text-2xl font-light text-left pl-5">Construction companies often employ skilled laborers, engineers, architects, and other professionals to complete projects efficiently and to a high standard of quality.</p>
+        <p class="mb-10 text-black-300 text-xl font-light text-justify pl-5">Construction companies often employ skilled laborers, engineers, architects, and other professionals to complete projects efficiently and to a high standard of quality.</p>
         </div>
            <div className='col'>
             <div>
-    <p class="mb-10 text-black-300 text-2xl font-light text-left pt-20 pl-5">At EVLO construction, we are more than just builders; we are creators of spaces where dreams come to life. With a legacy of excellence spanning 5 years, we have established ourselves as a trusted and innovative construction company. Our commitment to delivering quality, safety, and sustainability is at the core of everything we do. From groundbreaking to project completion, we bring expertise, passion, and a relentless pursuit of perfection to every construction endeavor. </p>
+    <p class="mb-10 text-black-300 text-xl font-light text-justify pt-20 pl-5">At EVLO construction, we are more than just builders; we are creators of spaces where dreams come to life. With a legacy of excellence spanning 5 years, we have established ourselves as a trusted and innovative construction company. Our commitment to delivering quality, safety, and sustainability is at the core of everything we do. From groundbreaking to project completion, we bring expertise, passion, and a relentless pursuit of perfection to every construction endeavor. </p>
     </div>
     <div>
 
@@ -33,33 +33,52 @@ export default function Home() {
 </div> 
 </div> 
 </div>
-    <div className='p-5 flex  w-full'>  
-    <div className='bg-[url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQX4OWJ4TDpcGK3dXw4At1p2BEEW1mnExE3ot0lLGoxnCchc66M9rD-Xr5PsypM_N8dAXE&usqp=CAU")] h-100  bg-cover contrast-50 bg-center p-24 '>
-
-<h1 className='text-white text-2xl font-bold text-left uppercase'>Design and building</h1>
-<hr class="w-48 h-1 mx-auto my-4 bg-yellow-300 border-0 rounded md:my-10 dark:bg-gray-700"></hr>
-<h2 className='text-white text-2xl text-justify mt-5'>Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</h2>
-    
+<br></br>
+<div className='flex'>
+<div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-xl">
+  <div class="md:flex">
+    <div class="md:shrink-0">
+      <div className='bg-[url("https://i.pinimg.com/564x/cc/0c/67/cc0c6741d191dd3f59620033279c71b6.jpg")] h-100 bg-center contrast-50 bg-cover p-24 w-full '></div>
     </div>
-    <div className='bg-[url("https://media.istockphoto.com/id/1384317531/photo/before-and-after-of-man-painting-roller-to-reveal-newly-remodeled-room-with-fresh-light-green.jpg?s=612x612&w=0&k=20&c=wF448uWLu7btrsbZedGiIHqHbeu6KxA-YxZOiTkfcMY=")] h-100 bg-center contrast-50 bg-cover  p-24'>
-
-<h1 className='text-white text-2xl font-bold text-left uppercase'>Construction and innovation</h1>
-<hr class="w-48 h-1 mx-auto my-4 bg-yellow-300 border-0 rounded md:my-10 dark:bg-gray-700"></hr>
-<h2 className='text-white text-2xl text-justify mt-5'>As the construction industry continually evolves to adopt new technologies, materials, and practices to improve efficiency, sustainability, and safety.</h2>   
-    </div>  
-            
-    <div className='bg-[url("https://media.istockphoto.com/id/1195687574/photo/interior-view-of-a-house-under-construction.jpg?s=612x612&w=0&k=20&c=X-eZ0nNCBLHuVEWPJEzu-Q6WUFKOxeqGLyfnL4-GsNM=")] h-100 bg-center contrast-50 bg-cover p-24 '>
-
-<h1 className='text-white text-2xl font-bold text-left uppercase '>Finishing techniques</h1>
-<hr class="w-48 h-1 mx-auto my-4 bg-yellow-300 border-0 rounded md:my-10 dark:bg-gray-700"></hr>
-<h2 className='text-white text-2xl text-justify mt-5'>The final touches and processes applied to a building or structure to enhance its aesthetics, functionality, and durability.</h2>
-    
-    </div>         
+    <div class="p-8">
+      <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Design and building</div>
+     
+      <p class="mt-2 text-slate-500">Looking to take your team away on a retreat to enjoy awesome food and take in some sunshine? We have a list of places to do just that.</p>
+    </div>
+  </div>
 </div>
-<p className='text-3xl text-center text-yellow-300 font-bold'>SPECIAL OFFERS</p>
+
+<div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-xl">
+  <div class="md:flex">
+    <div class="md:shrink-0">
+      <div className='bg-[url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3bTwTcm2odLkOY5ZWIbNAXoRU9t13Z47BlQ&usqp=CAU")] h-100 bg-center contrast-50 bg-cover p-24 w-full '></div>
+    </div>
+    <div class="p-8">
+      <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Construction</div>
+     
+      <p class="mt-2 text-slate-500">Looking to take your team away on a retreat to enjoy awesome food and take in some sunshine? We have a list of places to do just that.</p>
+    </div>
+  </div>
+</div>
+
+<div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-xl">
+  <div class="md:flex">
+    <div class="md:shrink-0">
+      <div className='bg-[url("https://media.istockphoto.com/id/1195687574/photo/interior-view-of-a-house-under-construction.jpg?s=612x612&w=0&k=20&c=X-eZ0nNCBLHuVEWPJEzu-Q6WUFKOxeqGLyfnL4-GsNM=")] h-100 bg-center contrast-50 bg-cover p-24 w-full '></div>
+    </div>
+    <div class="p-8">
+      <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Finishing techniques</div>
+     
+      <p class="mt-2 text-slate-500">Looking to take your team away on a retreat to enjoy awesome food and take in some sunshine? We have a list of places to do just that.</p>
+    </div>
+  </div>
+</div>
+ </div>   
+<p className='text-3xl text-center text-yellow-300 font-bold pt-8'>SPECIAL OFFERS</p>
 
           <h1 className='text-5xl pt-5 text-center text-black font-bold'>OUR BEST SERVICE</h1>
-          <hr class="w-48 h-1 mx-auto my-4 bg-yellow-300 border-0 rounded md:my-10 dark:bg-gray-700"></hr>    
+          <hr class="w-48 h-1 mx-auto my-4 bg-yellow-300 border-0 rounded md:my-10 dark:bg-gray-700"></hr> 
+
           <div class="grid grid-cols-1 gap-2 sm:grid-cols-3 pt-5">
           <div class="max-w-sm rounded overflow-hidden shadow-lg mx-auto mt-10">
       <div className="w-full p-8 text-center">
