@@ -3,29 +3,34 @@ import React from 'react'
 export default function Home() {
   return (
     
-    <><div className='bg-[url("https://as1.ftcdn.net/v2/jpg/00/95/29/68/1000_F_95296888_VeBf4npRMNJkIngif20ckHsaKXLTaE5w.jpg")] h-116 w-full bg-cover bg-center p-24'>
-
-      <h1 className='text-yellow-300 text-6xl font-bold text-left pl-5 '>We are builders</h1>
-      <h2 className='text-black text-6xl font-light text-left mt-5'>We will build your dreams</h2>
-      <div class='p-5 flex gap-10'>
-        <div className='row '>
-
-          <button class='bg-yellow-300 px-10 py-5 text-xl uppercase tracking-widest text-white font-bold '>projects</button>
-          </div>
-          <button class='border-solid bg-white  border-white border-4 px-10 py-1 text-l text-yellow-300 uppercase font-bold tracking-widest'>About Us</button>
+    <>
+    <div className=''>
+      <div className=' h-full w-full sm:w-160 h-full bg-cover bg-center'>
+      <div className='bg-[url("https://as1.ftcdn.net/v2/jpg/00/95/29/68/1000_F_95296888_VeBf4npRMNJkIngif20ckHsaKXLTaE5w.jpg")] bg-cover  sm:grid-cols-12 '>
+      <div className=''>
+      <h1 className='text-yellow-300 sm:text-6xl  lg:text-6xl font-bold text-left pl-5 p-5 '>We are builders</h1>
+      <h2 className='text-black  font-light sm:text-6xl  lg:text-6xl text-left  pl-5  mb-10 '>We will build your dreams</h2>
+      <div class='sm:p-20 '>   
+        <div className='flex gap-5  '>
+          <button class='bg-yellow-300 lg:px-10 py-5 text-xl uppercase sm:px-10 py:10 text-white font-bold mb-1 p-5 ml-5 text-center'> projects</button>  
+          <button class='border-solid bg-white  border-white border-4 px-10 py-1 text-xl text-yellow-300 uppercase font-bold  mb-1 p-5 mr-1'>About</button>
+        </div>
+        </div>
         </div>
       </div>
+    </div>
+    </div>
     
-    <div class="grid grid-cols-1 gap-6 sm:grid-cols-2">
+    <div class="grid grid-cols-1 gap-5 sm:grid-cols-2 ">
       <div>
-        <p class="mb-10 text-yellow-300 text-4xl font-bold text-center pt-20 pl-5">Welcome to </p>
-        <p class="mb-10 text-black-300 text-4xl font-bold text-center pl-5">EVLO CONSTRUCTION</p>
+        <p class="mb-10 text-yellow-300 text-4xl font-bold text-center  pr-5 pt-20 pl-5">Welcome to </p>
+        <p class="mb-10 text-black-300 text-4xl font-bold text-center pl-5  pr-5">EVLO CONSTRUCTION</p>
         <hr class="w-48 h-1 mx-auto my-4 bg-yellow-300 border-0 rounded md:my-10 dark:bg-gray-700"></hr>
-        <p class="mb-10 text-black-300 text-xl font-light text-justify pl-5">Construction companies often employ skilled laborers, engineers, architects, and other professionals to complete projects efficiently and to a high standard of quality.</p>
+        <p class="mb-10 text-black-300 text-xl font-light text-justify  pr-5 pl-5">Construction companies often employ skilled laborers, engineers, architects, and other professionals to complete projects efficiently and to a high standard of quality.</p>
         </div>
            <div className='col'>
             <div>
-    <p class="mb-10 text-black-300 text-xl font-light text-justify pt-20 pl-5">At EVLO construction, we are more than just builders; we are creators of spaces where dreams come to life. With a legacy of excellence spanning 5 years, we have established ourselves as a trusted and innovative construction company. Our commitment to delivering quality, safety, and sustainability is at the core of everything we do. From groundbreaking to project completion, we bring expertise, passion, and a relentless pursuit of perfection to every construction endeavor. </p>
+    <p class="mb-10 text-black-300 text-xl font-light text-justify pt-20  pr-5 pl-5">At EVLO construction, we are more than just builders; we are creators of spaces where dreams come to life. With a legacy of excellence spanning 5 years, we have established ourselves as a trusted and innovative construction company. Our commitment to delivering quality, safety, and sustainability is at the core of everything we do. From groundbreaking to project completion, we bring expertise, passion, and a relentless pursuit of perfection to every construction endeavor. </p>
     </div>
     <div>
 
@@ -34,17 +39,19 @@ export default function Home() {
 </div> 
 </div>
 <br></br>
-<div className='flex'>
+<div className='sm:flex'>
 <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-xl">
   <div class="md:flex">
-    <div class="md:shrink-0">
+    <div class="sm:shrink-0">
       <div className='bg-[url("https://i.pinimg.com/564x/cc/0c/67/cc0c6741d191dd3f59620033279c71b6.jpg")] h-100 bg-center contrast-50 bg-cover p-24 w-full '></div>
     </div>
-    <div class="p-8">
+    <div>
+    <div class="p-1">
       <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Design and building</div>
      
-      <p class="mt-2 text-slate-500">Looking to take your team away on a retreat to enjoy awesome food and take in some sunshine? We have a list of places to do just that.</p>
+      <p class="mt-2 text-slate-500 text-justify ">Looking to take your team away on a retreat to enjoy awesome food and take in some sunshine? We have a list of places to do just that.</p>
     </div>
+  </div>
   </div>
 </div>
 
@@ -53,10 +60,10 @@ export default function Home() {
     <div class="md:shrink-0">
       <div className='bg-[url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3bTwTcm2odLkOY5ZWIbNAXoRU9t13Z47BlQ&usqp=CAU")] h-100 bg-center contrast-50 bg-cover p-24 w-full '></div>
     </div>
-    <div class="p-8">
+    <div class="p-1">
       <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Construction</div>
      
-      <p class="mt-2 text-slate-500">Looking to take your team away on a retreat to enjoy awesome food and take in some sunshine? We have a list of places to do just that.</p>
+      <p class="mt-2 text-slate-500 text-justify">Looking to take your team away on a retreat to enjoy awesome food and take in some sunshine? We have a list of places to do just that.</p>
     </div>
   </div>
 </div>
@@ -66,10 +73,10 @@ export default function Home() {
     <div class="md:shrink-0">
       <div className='bg-[url("https://media.istockphoto.com/id/1195687574/photo/interior-view-of-a-house-under-construction.jpg?s=612x612&w=0&k=20&c=X-eZ0nNCBLHuVEWPJEzu-Q6WUFKOxeqGLyfnL4-GsNM=")] h-100 bg-center contrast-50 bg-cover p-24 w-full '></div>
     </div>
-    <div class="p-8">
+    <div class="p-1">
       <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Finishing techniques</div>
      
-      <p class="mt-2 text-slate-500">Looking to take your team away on a retreat to enjoy awesome food and take in some sunshine? We have a list of places to do just that.</p>
+      <p class="mt-2 text-slate-500 text-justify">Looking to take your team away on a retreat to enjoy awesome food and take in some sunshine? We have a list of places to do just that.</p>
     </div>
   </div>
 </div>
